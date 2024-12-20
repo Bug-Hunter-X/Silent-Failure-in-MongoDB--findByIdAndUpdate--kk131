@@ -1,0 +1,3 @@
+# Silent Failure in MongoDB `findByIdAndUpdate`
+
+This repository demonstrates a common issue with MongoDB's `findByIdAndUpdate` method: silent failures when the target document doesn't exist. The provided code uses Mongoose to interact with MongoDB.  The `bug.js` file contains the problematic code, while `bugSolution.js` provides a corrected version that handles the scenario gracefully and throws an error for better error handling.
